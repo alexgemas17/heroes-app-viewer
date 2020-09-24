@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/heroes-app-viewer/static/js/main.f4f5c05c.chunk.js",
-    "main.js.map": "/heroes-app-viewer/static/js/main.f4f5c05c.chunk.js.map",
+    "main.js": "/heroes-app-viewer/static/js/main.c0f14d0f.chunk.js",
+    "main.js.map": "/heroes-app-viewer/static/js/main.c0f14d0f.chunk.js.map",
     "runtime-main.js": "/heroes-app-viewer/static/js/runtime-main.cb147b09.js",
     "runtime-main.js.map": "/heroes-app-viewer/static/js/runtime-main.cb147b09.js.map",
     "static/js/2.6270374c.chunk.js": "/heroes-app-viewer/static/js/2.6270374c.chunk.js",
     "static/js/2.6270374c.chunk.js.map": "/heroes-app-viewer/static/js/2.6270374c.chunk.js.map",
     "index.html": "/heroes-app-viewer/index.html",
-    "precache-manifest.4831c5def96e1125a586c2dc36ba6d37.js": "/heroes-app-viewer/precache-manifest.4831c5def96e1125a586c2dc36ba6d37.js",
+    "precache-manifest.f212a67ae56bb367f7ab378807f0b209.js": "/heroes-app-viewer/precache-manifest.f212a67ae56bb367f7ab378807f0b209.js",
     "service-worker.js": "/heroes-app-viewer/service-worker.js",
     "static/js/2.6270374c.chunk.js.LICENSE.txt": "/heroes-app-viewer/static/js/2.6270374c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.cb147b09.js",
     "static/js/2.6270374c.chunk.js",
-    "static/js/main.f4f5c05c.chunk.js"
+    "static/js/main.c0f14d0f.chunk.js"
   ]
 }
