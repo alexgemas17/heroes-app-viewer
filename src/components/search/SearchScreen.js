@@ -7,8 +7,6 @@ import { getHeroesByName } from '../../selectors/getHeroesByName';
 
 export const SearchScreen = ({history}) => {
     
-    // Obtenemos la busqueda realizada en el link '?q=algo'.
-    // Con query-string podemos parsear de forma sencilla nuestra url.
     const location = useLocation()
     const {q = ''} = queryString.parse(location) 
 

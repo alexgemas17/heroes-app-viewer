@@ -7,8 +7,6 @@ import {
 import { LoginScreen } from "../components/login/LoginScreen";
 import { DashboardRoutes } from "./DashboardRoutes";
 
-// El nombre indica que este es el sistema principal de routers de la app.
-
 export const AppRouter = () => {
     return (
         <Router>

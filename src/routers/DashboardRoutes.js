@@ -7,13 +7,6 @@ import { HeroScreen } from '../components/heores/HeroScreen'
 import { DcScreen } from '../components/dc/DcScreen'
 import { SearchScreen } from '../components/search/SearchScreen'
 
-/*
-    Con DashboardRoutes, encapsulamos toda la lógica una vez que hayamos hecho "login". Así, en login tendrá un estilo, y una vez logeados,
-    aparecerá tanto el navbar como el switch con las distintas rutas que podemos hacer en nuestra app.
-
-    Nota1: En path="/marvel/:heroeId" estamos especificando que en la url vamos a recibir un argumento llamado "heroeId"
-    Nota2: El Switch está entre div porque es una buena práctica dicho por ellos.
-*/
 export const DashboardRoutes = () => {
     return (
         <>

@@ -4,10 +4,7 @@ import { getHeroesById } from '../../selectors/getHeroesById'
 
 export const HeroScreen = ({history}) => {
 
-    // Con el hook useParams de 'react-router-dom', podemos obtener los parámetros que hemos enviado por el url
     const { heroeId } = useParams()
-
-    // Mientras no cambie el "hero", que no vuelva a cargar nada
     const hero = useMemo(() => getHeroesById(heroeId), [heroeId])
 
     if (!hero)
@@ -22,8 +19,6 @@ export const HeroScreen = ({history}) => {
     } = hero
 
     const handleReturn = () => {
-        // Si por algún casual se mete directamente en un heroe y le da para atrás, se saldrá de la página
-        // Por eso lo mandamos a la página principal
         if (history.lenth <= 2){
             history.push()
         }
